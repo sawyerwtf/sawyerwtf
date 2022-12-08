@@ -27,9 +27,9 @@ class Attributes(venaki):
 	@staticmethod
 	def coding(self) -> tuple:
 		langs = {
-			'expert':   ['python'],
-			'intermediate': ['go'],
-			'learning': ['js', 'c', 'c++', 'c#', 'asm', 'java']
+			'expert':   ['python', 'js', 'css', 'luau'],
+			'intermediate': ['c++', 'java'],
+			'learning': ['c', 'c#', 'asm', 'java']
 		}
 		specialities  = ['frontend', 'reverse engineering'. 'utilities']
 		environnement = ['vscode']
